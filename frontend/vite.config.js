@@ -38,8 +38,3 @@ export default defineConfig({
     ],
   },
 });
-
-
- git add .           
- git commit -m "vite.config.js preview update for production"
- git push origin main
