@@ -8,7 +8,7 @@ import {
 } from "@workspace/api-client-react";
 
 // Change this to your backend URL
-setBaseUrl("http://10.43.65.189:5000");
+setBaseUrl("https://byteshare-api.onrender.com");
 
 setAuthTokenGetter(() => localStorage.getItem("byteshare_token"));
 
