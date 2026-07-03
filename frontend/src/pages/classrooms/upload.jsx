@@ -72,7 +72,7 @@ function UploadResource() {
         throw new Error("Failed to upload to Cloudinary");
       }
       const cloudinaryData = await res.json();
-      console.log(cloudinaryData);
+      // console.log(cloudinaryData);
       await resourceMutation.mutateAsync({
         classroomId,
         data: {

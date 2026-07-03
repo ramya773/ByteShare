@@ -310,9 +310,13 @@ if (downloadUrl.includes("/raw/upload/")) {
   downloadUrl = downloadUrl.replace("/upload/", "/upload/fl_attachment/");
 }
 
-console.log("Clean Download URL: ", downloadUrl);
 res.json({ downloadUrl, tokensDeducted, newBalance });
   },
 );
 var stdin_default = router;
 export { stdin_default as default };
+
+
+git add .           
+git commit -m "log update for production"
+git push origin main

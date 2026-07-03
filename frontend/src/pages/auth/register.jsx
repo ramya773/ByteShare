@@ -64,7 +64,7 @@ function Register() {
     render={({ field }) => <FormItem>
                     <FormLabel>Full Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="Jane Doe" {...field} />
+                      <Input placeholder="Enter a Valid Name" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>}
@@ -75,7 +75,7 @@ function Register() {
     render={({ field }) => <FormItem>
                     <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="student@university.edu" {...field} />
+                      <Input placeholder="Enter a Valid Email" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>}

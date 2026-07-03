@@ -3,8 +3,7 @@ import "dotenv/config";
 const { setServers } = require('node:dns/promises');
 setServers(['1.1.1.1', '8.8.8.8']);
 
-console.log("PORT =", process.env.PORT);
-console.log("MONGODB_URI =", process.env.MONGODB_URI);
+
 import app from "./app";
 import { logger } from "./lib/logger";
 import { connectMongoDB } from "./lib/mongodb";
