@@ -69,14 +69,11 @@ function Login() {
         </Link>
 
         <div className="max-w-md w-full mx-auto mt-16">
-          {/* <div className="mb-8">
+          <div className="mb-8">
             <h1 className="text-3xl font-bold tracking-tight mb-2">
-              Welcome back
+              Login To Your Account
             </h1>
-            <p className="text-muted-foreground">
-              Log in to your account to continue your learning journey.
-            </p>
-          </div> */}
+          </div>
 
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
