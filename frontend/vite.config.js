@@ -30,8 +30,16 @@ export default defineConfig({
     host: "0.0.0.0",
   },
 
-  preview: {
+   preview: {
+    host: true,
     port: 4173,
-    host: "0.0.0.0",
+    allowedHosts: [
+      "byteshare.onrender.com"
+    ],
   },
 });
+
+
+ git add .           
+ git commit -m "vite.config.js preview update for production"
+ git push origin main
