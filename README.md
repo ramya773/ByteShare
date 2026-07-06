@@ -136,4 +136,8 @@ Each classroom contains its own collection of study materials, making it simple 
 
 # 👨‍💻 Developed By
 
-**Aditya Manchandani**
+- **Aditya Manchandani**
+- **Ramya Sharma**
+- **Nehal Singh Soam**
+
+
